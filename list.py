@@ -26,3 +26,20 @@ print(mylist)
 items = mylist.pop()
 print(items)
 print(mylist)
+
+mylist.remove("kiwi")
+print(mylist)
+
+mylist.clear()
+print(mylist)
+
+
+mylist =['Rav4']
+print(mylist)
+
+mylist.append("Tesla")
+
+print(mylist)
+
+mylist.insert(3,"BMW")
+print(mylist)

@@ -43,3 +43,22 @@ print(mylist)
 
 mylist.insert(3,"BMW")
 print(mylist)
+
+mylist =[1,9,0,2,11,-1,56]
+mylist.sort()
+print(mylist)
+
+mylist.reverse()
+print(mylist)
+mylist =['Rav4,Tesla,BMw']
+mylist = mylist[0].split(',')
+print(mylist)
+
+list =[0]*4
+print(list)
+
+list2 = [1,2,3,4,6]
+print(list2)
+
+newlist = list + list2
+print(newlist)

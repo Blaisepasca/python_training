@@ -70,6 +70,17 @@ print(a)
 
 list =["Dr congo" ,"Tanzania","uganda","kenya"]
 
-listcopy = list
-listcopy.append("cameroun")
+# listcopy = list
+# listcopy.append("cameroun")
+# print(listcopy)
+listcopy =list.copy()
 print(listcopy)
+listcopy.append("Rwanda")
+print(list)
+
+
+list = [1,2,3,4,5]
+list2 =[ i*i for i in list]
+print(list)
+print(list2)
+    

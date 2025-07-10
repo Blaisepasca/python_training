@@ -62,3 +62,14 @@ print(list2)
 
 newlist = list + list2
 print(newlist)
+
+list =[1,2,4,5,7,8,9,10,11,12,13]
+a =list[1:4]
+print(a)
+
+
+list =["Dr congo" ,"Tanzania","uganda","kenya"]
+
+listcopy = list
+listcopy.append("cameroun")
+print(listcopy)

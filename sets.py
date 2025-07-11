@@ -26,16 +26,16 @@ odds ={1,3,5,7,9}
 evens ={2,4,6,8,10}
 primes ={2,3,5,7}
 
-u =odds.union(evens)
+u = odds.union(evens)
 print(u)
 
-i =odds.intersection(evens)
+i = odds.intersection(evens)
 print(i)
 
-i =odds.intersection(primes)
+i = odds.intersection(primes)
 print(i)
 
-i =evens.intersection(primes)
+i = evens.intersection(primes)
 print(i)
 
 set1 ={1,2,3,4}
@@ -46,3 +46,11 @@ print(diff)
 
 diff =set2.symmetric_difference(set1)
 print(diff)
+
+set1.update(set2)
+print(set1)
+
+set1.intersection_update(set2)
+print(set1)
+
+# and so menu other methods of sets

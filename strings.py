@@ -1,0 +1,16 @@
+my_string ="    hello wordld  "
+print(my_string)
+my_string = my_string.strip()
+print(my_string)
+my_string =my_string.replace('wordld','world')
+my_string =my_string.upper()
+print(my_string)
+
+my_string = my_string.endswith('world')
+print(my_string)
+my_string = my_string.start('hello')
+print(my_string)
+my_string = my_string.find('world')
+print(my_string)
+my_string = my_string.split("")
+print(my_string)

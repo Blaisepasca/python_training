@@ -11,3 +11,9 @@ mult = lambda x,y: x+y
 # Example usage
 print(mult(5, 10))  # Output: 15
 print(mult(20, 30))  # Output: 50
+
+points2D =[1, 2], [3, 4], [5, 6],[10,-4]
+points2D_sorted = sorted(points2D, key=lambda x: x[1])
+
+print(points2D_sorted)  # Output: [(10, -4), (1, 2), (3, 4), (5, 6)]    
+print(points2D_sorted)

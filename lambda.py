@@ -20,7 +20,7 @@ print(points2D_sorted)
 
 
 #example
-a =[1, 2, 3, 4, 5]
+a =[1, 2, 3, 4, 5,8]
 b =map(lambda x: x+2, a)
 print(list(b))
 
@@ -32,3 +32,11 @@ print(d)
 
 e =[x-1 for x in a]
 print(e)
+
+f =[x for x in a if x%2==0]
+print(f)  # Output: [2, 4]
+
+from  functools import reduce
+g=[1, 2, 3, 4]
+product_a =reduce(lambda x,y: x*y ,g)
+print(product_a)  # Output: 30

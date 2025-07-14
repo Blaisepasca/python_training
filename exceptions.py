@@ -26,12 +26,23 @@ finally:
 class ValueTooHighError(Exception):
     pass
 
+class valueTooSmallError(Exception):
+    def _init_(self,message,value):
+        self.message = message
+        self.value = value
+    
+
+
 def test_value(x):
     if x > 100:
         raise ValueTooHighError("Value is too high!")
-    return x
+    if x < 5:
+        raise valueTooSmallError("Value is too small!", x)
+  
 
 try:
     test_value(200)
 except ValueTooHighError as e:
     print(e)
+except valueTooSmallError as e:
+    print(e.message ,e.value)
